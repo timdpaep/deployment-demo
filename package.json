@@ -1,0 +1,14 @@
+{
+  "name": "deployment-demo",
+  "version": "1.0.0",
+  "private": "true",
+  "main": "index.js",
+  "license": "MIT",
+  "workspaces": {
+    "packages": ["api"],
+    "nohoist": ["**/@nestjs", "**/@nestjs/**"]
+  },
+  "scripts": {
+    "start:dev": "yarn workspaces api start:dev"
+  }
+}
