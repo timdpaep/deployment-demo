@@ -5,7 +5,7 @@
   "main": "index.js",
   "license": "MIT",
   "workspaces": {
-    "packages": ["api"],
+    "packages": ["api", "dashboard"],
     "nohoist": ["**/@nestjs", "**/@nestjs/**"]
   },
   "scripts": {
