@@ -9,6 +9,7 @@
     "nohoist": ["**/@nestjs", "**/@nestjs/**"]
   },
   "scripts": {
-    "start:dev": "yarn workspaces api start:dev"
+    "start:dev": "yarn workspaces api start:dev",
+    "heroku-postbuild": "yarn workspaces run build"
   }
 }
